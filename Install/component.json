@@ -1,0 +1,36 @@
+{
+	"name" : "Api Server Clients",
+	"route" : "system/api/server/clients",
+	"description" : "<p>List Api server clients via this component</p>",
+	"module_type" : "components",
+	"app_type" : "tms",
+	"category" : "admin",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-tms/tms-components-admin-systemapiserverclients",
+	"class" : "Apps\\Tms\\Components\\System\\Api\\Server\\Clients\\ClientsComponent",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.16",
+			"repo" : "https://github.com/sp-framework/core"
+		},
+		"components" : [],
+		"packages" : [],
+		"middlewares" : [],
+		"views" : [],
+		"external" : [],
+		"externals" : [],
+		"apptype" : 
+		{
+			"name" : "Transport Management System",
+			"version" : "0.0.0",
+			"repo" : "https://github.com/sp-tms/tms"
+		}
+	},
+	"menu" : "false",
+	"widgets" : [],
+	"filters" : [],
+	"settings" : []
+}
